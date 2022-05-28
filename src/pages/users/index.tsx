@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Header } from "../../components/Header";
 import { Pagination } from "../../components/Pagination";
 import { Sidebar } from "../../components/Sidebar";
-import { useEffect } from "react";
 import { useQuery } from 'react-query';
 
 export default function UserList() {
